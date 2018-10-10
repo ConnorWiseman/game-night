@@ -1,5 +1,6 @@
 /**
  * @file src/shared/queue.js
+ * @license MIT
  */
 'use strict';
 

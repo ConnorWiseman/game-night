@@ -1,5 +1,6 @@
 /**
  * @file src/random/index.js
+ * @license MIT
  */
 'use strict';
 

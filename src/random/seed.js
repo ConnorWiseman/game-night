@@ -1,5 +1,6 @@
 /**
  * @file src/random/seed.js
+ * @license MIT
  */
 'use strict';
 

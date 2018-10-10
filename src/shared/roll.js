@@ -1,5 +1,6 @@
 /**
  * @file src/shared/roll.js
+ * @license MIT
  */
 'use strict';
 

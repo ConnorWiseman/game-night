@@ -1,5 +1,6 @@
 /**
  * @file src/utils/arr.js
+ * @license MIT
  */
 'use strict';
 

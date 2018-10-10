@@ -1,5 +1,6 @@
 /**
  * @file src/shared/code.js
+ * @license MIT
  */
 'use strict';
 

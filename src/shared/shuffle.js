@@ -1,5 +1,6 @@
 /**
  * @file src/shared/shuffle.js
+ * @license MIT
  */
 'use strict';
 

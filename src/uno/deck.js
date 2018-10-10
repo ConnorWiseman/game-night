@@ -1,5 +1,6 @@
 /**
  * @file src/uno/deck.js
+ * @license MIT
  */
 'use strict';
 
