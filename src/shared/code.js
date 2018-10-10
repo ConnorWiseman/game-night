@@ -3,6 +3,7 @@
  */
 'use strict';
 
+const arr    = require('../utils/arr');
 const random = require('../random');
 
 /**
@@ -40,7 +41,4 @@ const rand = (a) => () => a[~~(random() * a.length)];
  * @return {String}
  * @public
  */
-module.exports = (l = 4, a = chars()) => new Array(l)
-  .fill()
-  .map(rand(a))
-  .join('');
+module.exports = (l = 4, a = chars()) => arr(l).map(rand(a)).join('');
