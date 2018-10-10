@@ -67,7 +67,7 @@ const next = (ctx) => {
  * floating point numbers in the interval [0, 1). The returned function is
  * intended as a drop-in, seedable replacement for JavaScript's `Math.random()`
  * function.
- * @param  {Number} [s=(Date.now() & 0x7fffffff)]
+ * @param  {Number} [s=seed()]
  * @param  {Number} [i=20]
  * @return {Function}
  * @public
