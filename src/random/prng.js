@@ -76,7 +76,5 @@ const next = (ctx) => {
 module.exports = (s = seed(), i = 20) => {
   const ctx = [ 0xf1ea5eed, s, s, s ];
 
-  return arr(i)
-    .map(() => next(ctx))
-    .reduce((result) => result, () => next(ctx));
+  return arr(i).reduce((result) => next(ctx) && result, () => next(ctx));
 };
