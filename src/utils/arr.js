@@ -8,6 +8,6 @@
  * iterating over with `Array.prototype.map`.
  * @param  {Number} length - The length of the Array to create.
  * @return {Array.<undefined>}
- * @private
+ * @public
  */
 module.exports = (length) => new Array(length).fill();
