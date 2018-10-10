@@ -70,9 +70,10 @@ const card = (name, type) => ({ name, type });
  * rooms, six suspects, and six weapons, but any of the sets may be overridden
  * for customized deck and playstyles. The standard Clue deck contains 21 cards
  * total.
- * @param  {Array.<String>} [rooms=defaultRooms()]
- * @param  {Array.<String>} [suspects=defaultSuspects()]
- * @param  {Array.<String>} [weapons=defaultWeapons()]
+ * @param  {Object}         [opts={}]
+ * @param  {Array.<String>} [opts.rooms=defaultRooms()]
+ * @param  {Array.<String>} [opts.suspects=defaultSuspects()]
+ * @param  {Array.<String>} [opts.weapons=defaultWeapons()]
  * @return {Array.<ClueCardObject>}
  * @public
  */
