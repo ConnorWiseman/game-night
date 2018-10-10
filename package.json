@@ -1,0 +1,42 @@
+{
+  "name": "game-night",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "author": "Connor Wiseman",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "npm run lint && nyc ava"
+  },
+  "engines": {
+    "node": ">=10.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorWiseman/game-night.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ConnorWiseman/game-night/issues"
+  },
+  "homepage": "https://github.com/ConnorWiseman/game-night#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "1.0.0-beta.8",
+    "eslint": "^5.6.1",
+    "nyc": "^13.0.1",
+    "sinon": "^6.3.5"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "ava": {
+    "files": [
+      "test/**/*.spec.js"
+    ]
+  }
+}
