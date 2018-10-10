@@ -1,11 +1,11 @@
 /**
- * @file test/uno/deck.spec.js
+ * @file test/games/uno/deck.spec.js
  */
 'use strict';
 
 const test = require('ava');
 
-const deck = require('../../src/uno/deck');
+const deck = require('../../../src/games/uno/deck');
 
 const hasCardColor = (arr, color) => arr.reduce((result, each) =>
   result || each.color === color, false);

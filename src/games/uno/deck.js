@@ -1,10 +1,10 @@
 /**
- * @file src/uno/deck.js
+ * @file src/games/uno/deck.js
  * @license MIT
  */
 'use strict';
 
-const arr = require('../utils/arr');
+const arr = require('../../utils/arr');
 
 /**
  * An Object representation of an Uno card.
