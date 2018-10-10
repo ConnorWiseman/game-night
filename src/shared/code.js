@@ -22,7 +22,7 @@ const toChar = (o = 65) => (_, i) => String.fromCharCode(i + o);
  * @return {Array.<String>}
  * @private
  */
-const chars = () => new Array(26).fill().map(toChar());
+const chars = () => arr(26).map(toChar());
 
 /**
  * Returns a mapping function for `Array.prototype.map` that maps an Array
