@@ -57,7 +57,7 @@ const defaultWeapons = () => [
 ];
 
 /**
- * Combines a {name} and a {type}, into an Object representation of a Clue card.
+ * Combines a {name} and a {type} into an Object representation of a Clue card.
  * @param  {String} name - The name of the card.
  * @param  {String} type - The type of card.
  * @return {ClueCardObject}
