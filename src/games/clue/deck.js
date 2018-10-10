@@ -7,8 +7,8 @@
 /**
  * An Object representation of a Clue card.
  * @typedef {ClueCardObject}
- * @param {String} name - The name of the card.
- * @param {String} type - The type of card: `"room"|"suspect"|"weapon"`
+ * @property {String} name - The name of the card.
+ * @property {String} type - The type of card: `"room"|"suspect"|"weapon"`
  */
 
 /**
