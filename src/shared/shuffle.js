@@ -6,7 +6,9 @@
 const random = require('../random');
 
 /**
- * [exports description]
+ * Returns a copy of an Array {arr} with its values randomly shuffed. Uses the
+ * specified random function {rand} to generate random values for shuffle
+ * comparison.
  * @param  {Array.<*>} arr
  * @param  {Function}  [rand=random()]
  * @return {Array.<*>}
